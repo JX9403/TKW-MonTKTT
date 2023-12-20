@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* SearchFive*/
+.searchFive {
+  position: relative;
+  background-color: var(--color-pink);
+  padding: 150px 0;
+}
+
+.searchFive-back {
+  font-size: 3rem;
+  margin-bottom: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: -5px;
+  left: -60px;
+}
+
+.searchFive-back:hover {
+  color: var(--color-red);
+}
+.searchFive-nav {
+  border: 1px solid var(--color-black);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-black);
+}
+.searchFive-res{
+  border: 1px solid var(--color-red);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-red);
+}
+
+.searchFive-search {
+  background-color: var(--color-red);
+  border-radius: 8px;
+  padding: 10px 18px;
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+}
+
+.searchFive-search select {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  
+  font-weight: 500;
+  padding: 0 10px;
+  outline: none;
+}
+
+.searchFive-search .btn{
+  margin: 0;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.searchFive-search .searchFive-search-wrap a:hover{
+  text-decoration: none;
+}
+.searchFive-box {
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 30px;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+}
+.searchFive-box-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.searchFive-box-img img {
+  width: 100%;
+}
+.searchFive-box-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.searchFive-box-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.searchFive-box-desc {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+.searchFive-box-view {
+  font-size: 1.8rem;
+  color: var(--color-red);
+}
+.searchFive-box-save {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.searchFive-box-save i {
+  font-size: 3rem;
+  cursor: pointer;
+  color: var(--color-black);
+  margin-right: 30px;
+
+}
+
+/* End SearchThree */
+
+
+/* JS */
+
+.show {
+  display: flex;
+}
+
+.notShow{
+  display: none;
+}

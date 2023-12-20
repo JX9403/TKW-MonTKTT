@@ -1,0 +1,193 @@
+@media screen and (max-width: 1200px) {
+  .header-main {
+    width: 960px;
+  }
+  .header-search {
+    width: 400px;
+  }
+  .header-list ul {
+    width: 304px;
+  }
+
+  .header-logo {
+    margin-right: 20px;
+  }
+  .header-noti {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-main {
+    width: 720px;
+  }
+  .header-search {
+    width: 440px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .header-menu {
+    display: block;
+    font-size: 28px;
+    margin: 0 20px;
+  }
+
+  .header-menu-list {
+    font-size: 1.8rem;
+  }
+
+  .header-khoa-wrap {
+    width: 720px;
+  }
+  .header-khoa-title {
+    margin-left: 10px;
+  }
+  .header-khoa-list {
+    flex-direction: column;
+  }
+
+  .header-noti-list {
+    width: 400px;
+  }
+  .footer-content-map {
+    margin-top: 20px;
+  }
+ .searchFive-search select{
+    margin-bottom: 10px;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 768px) {
+  .header-main {
+    width: 540px;
+  }
+
+  .header-menu {
+    font-size: 20px;
+  }
+
+  .header-search {
+    width: 300px;
+  }
+  .searchFive{
+    padding-top: 130px;
+  }
+  .searchFive-nav-item a{
+    font-size: 1.6rem;
+  }
+
+  .searchFive-box-title{
+    font-size: 1.6rem;
+  }
+  .searchFive-box-desc{
+    font-size: 1.6rem;
+  }
+  .searchFive-box-view {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .header-main {
+    width: 498px;
+  }
+  .header-logo {
+    margin-right: 6px;
+  }
+  .header-search {
+    width: 260px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .header-menu {
+    font-size: 22px;
+  }
+
+  .header-noti-list {
+    right: 0;
+  }
+
+  .acc-box {
+    right: 0;
+  }
+
+
+}
+
+@media screen and (max-width: 480px) {
+  .header-main {
+    width: 320px;
+  }
+
+  .header-search {
+    display: none;
+  }
+
+  .header-menu-list {
+    width: 320px;
+    right: -180px;
+  }
+
+  .btn-c {
+    margin: 8px;
+  }
+
+  .header-noti-list {
+    width: 320px;
+    right: -98px;
+  }
+
+
+  .btn-c {
+    margin: 8px;
+  }
+  .searchFive-box-title{
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  .searchFive-box-desc{
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  .searchFive-box-view {
+    font-size: 1.4rem;
+    
+  }
+  .searchFive-box-content{
+    padding: 0;
+  }
+  .searchFive-box-save i{
+    font-size: 2rem;
+    margin-right: 8px;
+
+  }
+  
+  .searchFive-nav-item a{
+    font-size: 1.4rem;
+  }
+
+  .searchFive-nav{
+    font-size: 1.4rem;
+  }
+  
+  .searchFive-res{
+    font-size: 1.4rem;
+  }
+
+  .searchFive-search select{
+    font-size: 1.4rem;
+  }
+  .searchFive-search .btn{
+    font-size: 1.4rem;
+  }
+}
